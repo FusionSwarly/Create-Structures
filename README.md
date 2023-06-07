@@ -1,4 +1,4 @@
-# Create-Structures
+# Create: Structures
 ![icon](https://github.com/FusionSwarly/Create-Structures/assets/82784004/8ccdad73-f301-419c-b277-16629035bb17)
 
 Create: Structures is an add-on for Create that intends to further integrate the mod into vanilla by adding naturally generating structures.
