@@ -277,7 +277,7 @@
         "processors": "minecraft:zombie_plains",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 4
     },
     {
       "element": {

@@ -1,0 +1,23 @@
+
+modLoader = 'lowcodefml'
+loaderVersion = '[40,)'
+license = 'LicenseRef-All-Rights-Reserved'
+showAsResourcePack = false
+mods = [
+	{ modId = 'create_structures', version = '0.1.1', displayName = 'Create: Structures', description = 'Add-on for Create that implements naturally generating structures containing early-game Create contraptions and items.', logoFile = 'icon.png', updateJSONURL = 'https://api.modrinth.comauth/init?url=https://modrinth.com/mod/create-structures/version/e9v4MIpX/updates/IAnP4np7/forge_updates.json', authors = 'FusionSwarly', displayURL = 'https://modrinth.com/mod/create-structures' },
+]
+issueTrackerURL = 'https://github.com/FusionSwarly/Create-Structures/issues'
+
+[[dependencies.create_structures]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.create_structures]]
+    modId="create"
+    mandatory=true
+    versionRange="[0.5.1.a,)"
+    ordering="AFTER"
+    side="BOTH"
